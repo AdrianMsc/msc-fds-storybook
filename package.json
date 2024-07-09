@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tw-build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --watch"
   },
   "dependencies": {
     "react": "^18.3.1",
