@@ -31,6 +31,7 @@ module.exports = {
   },
   plugins: [
     require("./msc-components/msc-general"),
+    require("./msc-components/msc-breadcrumb"),
     require("./msc-components/msc-buttons"),
     require("./msc-components/msc-checkbox"),
     require("./msc-components/msc-dropdown"),
