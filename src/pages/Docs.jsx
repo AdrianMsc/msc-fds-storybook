@@ -5,9 +5,13 @@ import { Outlet } from "react-router-dom";
 const Docs = () => {
   return (
     <MainLayout>
-      <section className="main-container">
-        <Outlet />
-      </section>
+      <main className="main-container">
+        <section className="msc-grid-layout">
+          <div className="msc-layout-container">
+            <Outlet />
+          </div>
+        </section>
+      </main>
     </MainLayout>
   );
 };

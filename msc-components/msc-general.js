@@ -7,11 +7,11 @@ module.exports = function ({ addComponents, theme }) {
       "@apply col-span-12 md:col-span-12 2xl:col-span-8 2xl:col-start-3": {},
     },
     ".msc-component-container-col": {
-      "@apply flex flex-col gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4":
+      "@apply flex flex-col gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4 my-2":
         {},
     },
     ".msc-component-container-row": {
-      "@apply flex flex-row flex-wrap items-center gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4":
+      "@apply flex flex-row flex-wrap items-center gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4 my-2":
         {},
     },
     ".msc-grid-layout": {
@@ -31,6 +31,9 @@ module.exports = function ({ addComponents, theme }) {
     ".sidebar-component-button-active": {
       "@apply flex items-center w-full px-2 text-gray-900 rounded-lg pl-5 bg-blue-100":
         {},
+    },
+    ".category-tag": {
+      "@apply text-sm text-primary-blue font-bold": {},
     },
   };
   addComponents(general);
