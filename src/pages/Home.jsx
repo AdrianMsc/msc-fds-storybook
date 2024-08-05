@@ -21,7 +21,7 @@ const Home = () => {
         <div className="h-fit flex gap-2 mt-2">
           <Link
             to="/Docs"
-            className="p-4 bg-blue-600 rounded-full text-white items-center flex gap-2"
+            className="p-4 bg-blue-600 rounded-full text-white items-center flex gap-2 hover:bg-blue-800"
           >
             Go to Docs
             <FontAwesomeIcon icon={faArrowRight} />
@@ -29,7 +29,7 @@ const Home = () => {
           <a
             href="https://mscdirectjira.atlassian.net/wiki/spaces/PD/pages/2251784264/Batch+Release+Notes"
             target="blank"
-            className="p-4 bg-trasparent rounded-full text-black text-pretty items-center flex gap-2"
+            className="p-4 bg-trasparent rounded-full text-black text-pretty items-center flex gap-2 hover:bg-slate-200"
           >
             Batch Release notes
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
