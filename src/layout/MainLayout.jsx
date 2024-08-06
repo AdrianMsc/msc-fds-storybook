@@ -6,7 +6,7 @@ const MainLayout = ({ children }) => {
   return (
     <>
       {/* <Navbar /> */}
-      <main className="flex">
+      <main className="flex flex-row">
         <Sidebar />
         {children}
       </main>

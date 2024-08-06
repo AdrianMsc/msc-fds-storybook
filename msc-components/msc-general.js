@@ -1,7 +1,7 @@
 module.exports = function ({ addComponents, theme }) {
   const general = {
     ".main-container": {
-      "@apply h-screen w-screen bg-[#f2f2f2] p-5": {},
+      "@apply h-screen w-screen bg-[#f2f2f2] p-5 overflow-auto": {},
     },
     ".msc-layout-container": {
       "@apply col-span-12 md:col-span-12 2xl:col-span-8 2xl:col-start-3": {},
