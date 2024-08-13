@@ -11,7 +11,7 @@ module.exports = function ({ addComponents, theme }) {
         {},
     },
     ".msc-component-container-row": {
-      "@apply flex flex-row flex-wrap items-center gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4 my-2":
+      "@apply flex flex-row flex-wrap items-center gap-2 place-content-evenly w-full h-fit bg-white rounded py-4 px-4 mt-2":
         {},
     },
     ".msc-grid-layout": {

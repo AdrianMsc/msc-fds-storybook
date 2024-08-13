@@ -44,7 +44,6 @@ const BreadcrumbPage = () => {
         </ol>
       </div>
 
-      <h1>Code</h1>
       <Codeblock>
         {`
   <ol class="msc-breadcrumb-container">

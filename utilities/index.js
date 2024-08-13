@@ -7,30 +7,30 @@ toggleSideNav = () => {
 };
 
 const sideNav = `
-  <ul class="space-y-1 font-normal text-sm">
+  <ul className="space-y-1 font-normal text-sm">
     <!-- GETTING STARTED -->
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-example"
         data-collapse-toggle="dropdown-example"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Start Here</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-example" class="py-2 space-y-2">
+      <ul id="dropdown-example" className="py-2 space-y-2">
         <li>
           <a
             href="component-status.html"
-            class="flex items-center w-full px-2 text-gray-900 transition duration-75 rounded-lg pl-5 group hover:bg-gray-100"
+            className="flex items-center w-full px-2 text-gray-900 transition duration-75 rounded-lg pl-5 group hover:bg-gray-100"
           >
             Component Status
           </a>
@@ -41,54 +41,54 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-foundations"
         data-collapse-toggle="dropdown-foundations"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Foundations</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-foundations" class="py-2 space-y-2">
+      <ul id="dropdown-foundations" className="py-2 space-y-2">
         <li>
           <a
             href="colors.html"
-            class="flex items-center p-x2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center p-x2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Colors</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Colors</span>
           </a>
         </li>
 
         <li>
           <a
             href="shadows.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Shadows</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Shadows</span>
           </a>
         </li>
 
         <li>
           <a
             href="typography.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Typography</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Typography</span>
           </a>
         </li>
 
         <li>
           <a
             href="spacing.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Spacing</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Spacing</span>
           </a>
         </li>
       </ul>
@@ -97,51 +97,51 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-action"
         data-collapse-toggle="dropdown-action"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Action</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-action" class="py-2 space-y-2">
+      <ul id="dropdown-action" className="py-2 space-y-2">
         <li>
           <a
             href="buttons.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Buttons</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Buttons</span>
           </a>
         </li>
         <li>
           <a
             href="drop-down.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Drop Down</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Drop Down</span>
           </a>
         </li>
         <li>
           <a
             href="filter.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Filter</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Filter</span>
           </a>
         </li>
         <li>
           <a
             href="link.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Link</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Link</span>
           </a>
         </li>
       </ul>
@@ -150,52 +150,52 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-form"
         data-collapse-toggle="dropdown-form"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Form</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-form" class="py-2 space-y-2">
+      <ul id="dropdown-form" className="py-2 space-y-2">
         <li>
           <a
             href="inputs.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Inputs</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Inputs</span>
           </a>
         </li>
         <li>
           <a
             href="toggle.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Toggle</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Toggle</span>
           </a>
         </li>
         <li>
           <a
             href="checkbox.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Checkbox</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Checkbox</span>
           </a>
         </li>
 
         <li>
           <a
             href="radio.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Radio</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Radio</span>
           </a>
         </li>
       </ul>
@@ -205,27 +205,27 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-indicator"
         data-collapse-toggle="dropdown-indicator"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Indicator</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-indicator" class="py-2 space-y-2">
+      <ul id="dropdown-indicator" className="py-2 space-y-2">
         <li>
           <a
             href="spinner.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Spinner</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Spinner</span>
           </a>
         </li>
       </ul>
@@ -235,27 +235,27 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-layout"
         data-collapse-toggle="dropdown-layout"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Layout</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-layout" class="py-2 space-y-2">
+      <ul id="dropdown-layout" className="py-2 space-y-2">
         <li>
           <a
             href="dividers.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Dividers</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Dividers</span>
           </a>
         </li>
       </ul>
@@ -265,27 +265,27 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-overlay"
         data-collapse-toggle="dropdown-overlay"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Navigation</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-overlay" class="py-2 space-y-2">
+      <ul id="dropdown-overlay" className="py-2 space-y-2">
         <li>
           <a
             href="alphabetical-pager.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Alphabetic Pager</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Alphabetic Pager</span>
           </a>
         </li>
       </ul>
@@ -295,36 +295,36 @@ const sideNav = `
     <li>
       <button
         type="button"
-        class="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
+        className="flex items-center w-full px-2 text-sm font-bold text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
         aria-controls="dropdown-overlay"
         data-collapse-toggle="dropdown-overlay"
       >
-        <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+        <span className="flex-1 text-left rtl:text-right whitespace-nowrap"
           >Overlay</span
         >
         <img
-          class="flex-shrink-0 w-3 h-3"
+          className="flex-shrink-0 w-3 h-3"
           width="24"
           height="24"
           src="../assets/icons/chevron-down.svg"
         />
       </button>
-      <ul id="dropdown-overlay" class="py-2 space-y-2">
+      <ul id="dropdown-overlay" className="py-2 space-y-2">
         <li>
           <a
             href="modal.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Modal</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Modal</span>
           </a>
         </li>
 
         <li>
           <a
             href="dialog.html"
-            class="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
+            className="flex items-center px-2 text-gray-900 rounded-lg pl-5 hover:bg-gray-100 group"
           >
-            <span class="flex-1 ms-3 whitespace-nowrap">Dialog</span>
+            <span className="flex-1 ms-3 whitespace-nowrap">Dialog</span>
           </a>
         </li>
       </ul>

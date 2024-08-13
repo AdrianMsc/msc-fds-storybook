@@ -12,7 +12,7 @@ const TypographyPage = () => {
         for the headings.
       </p>
 
-      <h2 class="font-bold text-2xl my-3">Headings</h2>
+      <h2 className="font-bold text-2xl my-3">Headings</h2>
 
       <h1>Heading 1</h1>
       <h2>Heading 2</h2>
@@ -32,7 +32,7 @@ const TypographyPage = () => {
         `}
       </Codeblock>
 
-      <h2 class="font-bold text-2xl my-3">Body</h2>
+      <h2 className="font-bold text-2xl my-3">Body</h2>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
@@ -41,35 +41,35 @@ const TypographyPage = () => {
         libero hic nihil!
       </p>
 
-      <h2 class="font-bold text-2xl my-3">Overline</h2>
+      <h2 className="font-bold text-2xl my-3">Overline</h2>
 
       <p>
-        This is an <span class="overline-text">Overline</span>
+        This is an <span className="overline-text">Overline</span>
       </p>
 
-      <h2 class="font-bold text-2xl my-3">Caption</h2>
+      <h2 className="font-bold text-2xl my-3">Caption</h2>
 
       <p>
-        This is a <span class="caption-text">Caption</span>
+        This is a <span className="caption-text">Caption</span>
       </p>
 
-      <h2 class="font-bold text-2xl my-3">Helper Text</h2>
+      <h2 className="font-bold text-2xl my-3">Helper Text</h2>
 
       <p>
-        This is a <span class="helper-text">Helper Text</span>
+        This is a <span className="helper-text">Helper Text</span>
       </p>
 
-      <h2 class="font-bold text-2xl my-3">Custom</h2>
+      <h2 className="font-bold text-2xl my-3">Custom</h2>
 
       <p>
-        This is a <span class="custom-text">Custom Text</span>: This text has a
-        Roboto Font applied, it will depend of the previous installation of the
-        font**
+        This is a <span className="custom-text">Custom Text</span>: This text
+        has a Roboto Font applied, it will depend of the previous installation
+        of the font**
       </p>
 
       <Codeblock>
         {`
-  <!-- BODY -->
+  // BODY
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Perspiciatis, nam eaque facilis eos voluptatum aperiam accusantium,
@@ -77,23 +77,17 @@ const TypographyPage = () => {
     cupiditate nemo suscipit libero hic nihil!
   </p>
 
-  <!-- OVERLINE -->
+  // OVERLINE
   <h2 class="font-bold text-2xl my-3">Overline</h2>
 
-  <!-- CAPTION -->
+  // CAPTION
   <h2 class="font-bold text-2xl my-3">Caption</h2>
 
-  <!-- HELPER -->
+  // HELPER
   <h2 class="font-bold text-2xl my-3">Helper Text</h2>
 
-  <!-- CUSTOM -->
+  // CUSTOM
   <h2 class="font-bold text-2xl my-3">Custom</h2>
-
-  <p>
-    This is a <span class="custom-text">Custom Text</span>: This text
-    has a Roboto Font applied, it will depend of the previous
-    installation of the font**
-  </p>
         `}
       </Codeblock>
     </>

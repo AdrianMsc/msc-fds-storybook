@@ -20,7 +20,6 @@ const CheckboxPage = () => {
         </div>
       </div>
 
-      <h1>Code</h1>
       <Codeblock>
         {`
   <div class="msc-checkbox-container">

@@ -31,7 +31,6 @@ module.exports = {
   },
   plugins: [
     require("./msc-components/msc-general"),
-    require("./msc-components/msc-breadcrumb"),
     require("./msc-components/msc-buttons"),
     require("./msc-components/msc-checkbox"),
     require("./msc-components/msc-dropdown"),
@@ -48,5 +47,9 @@ module.exports = {
     require("./msc-components/msc-filter"),
     require("./msc-components/msc-dialog"),
     require("./msc-components/msc-grey-button"),
+    require("./msc-components/msc-tabs"),
+    require("./msc-components/msc-cart-action-bar"),
+    require("./msc-components/msc-breadcrumb"),
+    require("./msc-components/msc-alert"),
   ],
 };

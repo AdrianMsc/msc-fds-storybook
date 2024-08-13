@@ -6,7 +6,7 @@ const Codeblock = ({ children }) => {
     <SyntaxHighlighter
       language="htmlbars"
       style={atomOneDark}
-      className="max-[1500px] my-5 rounded"
+      className="max-[1500px] mb-4 mt-2 rounded"
     >
       {children}
     </SyntaxHighlighter>
