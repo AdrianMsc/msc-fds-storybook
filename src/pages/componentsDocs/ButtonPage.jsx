@@ -1,4 +1,3 @@
-import React from "react";
 import { Codeblock } from "../../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
