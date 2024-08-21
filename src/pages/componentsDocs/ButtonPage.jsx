@@ -5,6 +5,7 @@ import {
   faPrint,
   faThumbsUp,
 } from "@fortawesome/free-solid-svg-icons";
+import MscButton from "../../components/ds/MscButton";
 
 const ButtonPage = () => {
   return (
@@ -14,9 +15,10 @@ const ButtonPage = () => {
 
       <h2>Default</h2>
       <div className="msc-component-container-row">
-        <button className="msc-btn msc-btn-blue-solid">Blue Solid</button>
+        <MscButton label="Hola mundo" />
+        {/* <button className="msc-btn msc-btn-blue-solid">Blue Solid</button>
         <button className="msc-btn msc-btn-blue-outline">Blue Outline</button>
-        <button className="msc-btn msc-btn-transparent">Text Only</button>
+        <button className="msc-btn msc-btn-transparent">Text Only</button> */}
         <button className="msc-btn msc-btn-blue-solid msc-btn-sm">
           Small Button
         </button>
