@@ -15,13 +15,10 @@ const ButtonPage = () => {
 
       <h2>Default</h2>
       <div className="msc-component-container-row">
-        <MscButton label="Hola mundo" />
-        {/* <button className="msc-btn msc-btn-blue-solid">Blue Solid</button>
-        <button className="msc-btn msc-btn-blue-outline">Blue Outline</button>
-        <button className="msc-btn msc-btn-transparent">Text Only</button> */}
-        <button className="msc-btn msc-btn-blue-solid msc-btn-sm">
-          Small Button
-        </button>
+        <MscButton label="Blue Solid" />
+        <MscButton label="Blue Outline" variant="outline" />
+        <MscButton label="Transaprent" variant="transparent" />
+        <MscButton label="Button Small" size="msc-btn-sm" />
       </div>
 
       <Codeblock>
