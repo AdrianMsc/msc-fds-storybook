@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://adrianmsc.github.com/msc-fuel-design-system-react",
+  base: "https://adrianmsc.github.io/msc-fuel-design-system-react/",
 });
