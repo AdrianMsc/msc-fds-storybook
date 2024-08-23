@@ -15,7 +15,11 @@ export const MscButton = ({
 
   const className = variantClasses[variant] || variantClasses.solid;
 
-  return <button className={`${className} ${size}`}>{label}</button>;
+  return (
+    <button className={`${className} ${size}`}>
+      {label} <span>yesyes</span>
+    </button>
+  );
 };
 
 export default MscButton;
