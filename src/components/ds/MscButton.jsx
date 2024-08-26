@@ -10,7 +10,6 @@ export const MscButton = ({
     solid: "msc-btn msc-btn-blue-solid",
     outline: "msc-btn msc-btn-blue-outline",
     transparent: "msc-btn msc-btn-blue-transparent",
-    coter,
   };
 
   const className = variantClasses[variant] || variantClasses.solid;
