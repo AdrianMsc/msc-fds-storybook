@@ -1,0 +1,6 @@
+import"./index-BPHu6psy.js";import{j as d}from"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";import"./index-DZLKizrv.js";const n=({label:r="Button",variant:u="solid",size:i="default"})=>{const e={solid:"msc-btn msc-btn-blue-solid",outline:"msc-btn msc-btn-blue-outline",transparent:"msc-btn msc-btn-blue-transparent"},s={default:"",small:"msc-btn-sm"},c=`${e[u]||e.solid} ${s[i]||s.default}`;return d.jsx("button",{className:c,children:r})};n.__docgenInfo={description:"",methods:[],displayName:"MscButton",props:{label:{defaultValue:{value:'"Button"',computed:!1},required:!1},variant:{defaultValue:{value:'"solid"',computed:!1},required:!1},size:{defaultValue:{value:'"default"',computed:!1},required:!1}}};const v={title:"Fuel Design System/Action",component:n,parameters:{layout:"centered"},argTypes:{variant:{control:"select",options:["solid","outline","transparent"]},label:{control:"text"},size:{control:"select",options:["default","small"]}}},t={args:{label:"Blue Solid",variant:"solid"}};var a,o,l;t.parameters={...t.parameters,docs:{...(a=t.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    label: "Blue Solid",
+    variant: "solid"
+  }
+}`,...(l=(o=t.parameters)==null?void 0:o.docs)==null?void 0:l.source}}};const B=["mscButton"];export{B as __namedExportsOrder,v as default,t as mscButton};
