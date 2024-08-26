@@ -12,9 +12,5 @@ const config = {
     name: "@storybook/react-vite",
     options: {},
   },
-  viteFinal: (config) => {
-    config.base = "/storybook/"; // Configura la base para la subruta
-    return config;
-  },
 };
 export default config;
