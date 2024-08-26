@@ -10,7 +10,7 @@ export default {
   },
   // tags: ["autodocs"],
   argTypes: {
-    className: {
+    variant: {
       control: "select",
       options: [
         "msc-btn msc-btn-blue-solid",
