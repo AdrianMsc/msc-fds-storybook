@@ -5,15 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:storybook": "storybook build --output-dir=storybook-static",
-    "predeploy": "npm run build && npm run build:storybook",
-    "deploy": "gh-pages -d dist && gh-pages -d storybook-static -s storybook-static",
+    "build": "vite build && npm run build-storybook",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -d storybook-static",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "tw-build": "npx tailwindcss -i ./src/index.css -o ./src/styles/output.css --watch",
     "build:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --watch",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
