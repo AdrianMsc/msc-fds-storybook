@@ -12,11 +12,7 @@ export default {
   argTypes: {
     variant: {
       control: "select",
-      options: [
-        "msc-btn msc-btn-blue-solid",
-        "msc-btn msc-btn-blue-outline",
-        "msc-btn msc-btn-blue-transparent",
-      ],
+      options: ["solid", "outline", "transparent"],
     }, // Permite modificar la clase del botón desde los controles
     label: { control: "text" }, // Permite modificar el label del botón desde los controles
     // backgroundColor: { control: "color" },
