@@ -28,20 +28,6 @@ export default {
 export const mscButton = {
   args: {
     label: "Blue Solid",
-    className: "msc-btn msc-btn-blue-solid",
+    variant: "solid",
   },
 };
-
-// export const outline = {
-//   args: {
-//     label: "Blue Outline",
-//     className: "msc-btn msc-btn-blue-outline",
-//   },
-// };
-
-// export const transparent = {
-//   args: {
-//     label: "Transparent",
-//     className: "msc-btn msc-btn-blue-transparent",
-//   },
-// };
