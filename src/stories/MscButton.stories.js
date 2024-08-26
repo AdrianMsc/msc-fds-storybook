@@ -18,7 +18,7 @@ export default {
     // backgroundColor: { control: "color" },
     size: {
       control: "select",
-      options: ["", "msc-btn-sm"],
+      options: ["default", "small"],
     },
   },
   // args: { onClick: fn() },

@@ -3,8 +3,8 @@ import "../../styles/output.css";
 
 export const MscButton = ({
   label = "Button",
-  variant = "solid", // Valor predeterminado
-  size,
+  variant = "solid",
+  size = "default",
 }) => {
   const variantClasses = {
     solid: "msc-btn msc-btn-blue-solid",
@@ -12,9 +12,14 @@ export const MscButton = ({
     transparent: "msc-btn msc-btn-blue-transparent",
   };
 
-  const className = variantClasses[variant] || variantClasses.solid;
+  const variantSizes = {
+    default: "",
+    small: "msc-btn-sm",
+  };
 
-  return <button className={`${className} ${size}`}>{label}</button>;
+  const className = `${variantClasses[variant] || variantClasses.solid} ${variantSizes[size] || variantSizes.default}`;
+
+  return <button className={className}>{label}</button>;
 };
 
 export default MscButton;
