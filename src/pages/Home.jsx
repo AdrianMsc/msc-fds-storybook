@@ -27,7 +27,7 @@ const Home = () => {
             <FontAwesomeIcon icon={faArrowRight} />
           </Link>
           <a
-            href="https://mscdirectjira.atlassian.net/wiki/spaces/PD/pages/2251784264/Batch+Release+Notes"
+            href="https://ds-blog-ten.vercel.app/"
             target="blank"
             className="p-4 bg-trasparent rounded-full text-black text-pretty items-center flex gap-2 hover:bg-slate-200"
           >
