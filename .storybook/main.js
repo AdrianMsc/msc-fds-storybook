@@ -12,5 +12,11 @@ const config = {
     name: "@storybook/react-vite",
     options: {},
   },
+  // Añadir la configuración para incluir el archivo preview-head.html
+  previewHead: (head) => `
+    ${head}
+    <link rel="stylesheet" href="../src/assets/font-awesome/css/all.css" />
+  `,
 };
+
 export default config;

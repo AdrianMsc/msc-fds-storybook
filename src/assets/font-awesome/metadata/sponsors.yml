@@ -1,0 +1,33 @@
+---
+harvard-medical-school:
+  icons:
+    - plus
+  label: Harvard Medical School
+  url: https://hms.harvard.edu
+rocket-chat:
+  icons:
+    - comment
+    - comments
+    - message-lines
+    - messages
+    - phone
+    - quote-left
+  label: Rocket.Chat
+  url: https://rocket.chat
+stay-linked:
+  icons:
+    - truck
+    - warehouse
+  label: StayLinked
+  url: https://www.staylinked.com
+supple:
+  icons:
+    - bullhorn
+    - megaphone
+  label: Supple
+  url: https://supple.com.au
+the-us-sunnah-foundation:
+  icons:
+    - dollar-sign
+  label: The us-Sunnah Foundation
+  url: https://www.ussunnah.org

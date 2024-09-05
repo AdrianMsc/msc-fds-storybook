@@ -1,0 +1,382 @@
+---
+film-video:
+  icons:
+    - youtube
+  label: Film + Video
+hands:
+  icons:
+    - thumbs-down
+    - thumbs-up
+  label: Hands
+communication:
+  icons:
+    - bullhorn
+    - comment
+    - comments
+    - envelope
+    - message-lines
+    - message-quote
+    - messages
+    - phone
+    - phone-flip
+    - quote-left
+  label: Communication
+buildings:
+  icons:
+    - building
+    - warehouse
+  label: Buildings
+transportation:
+  icons:
+    - cart-shopping
+    - truck
+  label: Transportation
+punctuation-symbols:
+  icons:
+    - asterisk
+    - check
+    - circle-exclamation
+    - circle-question
+    - greater-than
+    - less-than
+    - minus
+    - plus
+    - quote-left
+  label: Punctuation + Symbols
+time:
+  icons:
+    - calendar
+    - clock
+  label: Time
+construction:
+  icons:
+    - screwdriver-wrench
+    - user-helmet-safety
+  label: Construction
+arrows:
+  icons:
+    - angle-down
+    - angle-left
+    - angle-right
+    - angle-up
+    - arrow-down
+    - arrow-down-long
+    - arrow-left
+    - arrow-right
+    - arrow-right-from-bracket
+    - arrow-up
+    - arrow-up-long
+    - arrow-up-to-line
+    - arrows-maximize
+    - arrows-rotate
+    - caret-down
+    - caret-left
+    - caret-right
+    - caret-up
+    - chevron-down
+    - chevron-left
+    - chevron-right
+    - chevron-up
+    - chevrons-down
+    - chevrons-left
+    - chevrons-right
+    - chevrons-up
+    - clock-rotate-left
+    - download
+    - maximize
+    - rotate
+    - rotate-left
+    - share
+    - upload
+  label: Arrows
+music-audio:
+  icons:
+    - sliders
+  label: Music + Audio
+editing:
+  icons:
+    - arrows-rotate
+    - bars
+    - check
+    - circle-check
+    - ellipsis
+    - ellipsis-vertical
+    - eye-slash
+    - grid
+    - minus
+    - pen
+    - pen-to-square
+    - plus
+    - rotate
+    - scissors
+    - sliders
+    - square-check
+    - trash
+    - trash-can
+    - xmark
+  label: Editing
+logistics:
+  icons:
+    - gas-pump
+    - truck
+    - user-helmet-safety
+    - warehouse
+  label: Logistics
+medical-health:
+  icons:
+    - clock-rotate-left
+    - eye
+    - head-side-mask
+    - plus
+    - receipt
+  label: Medical + Health
+money:
+  icons:
+    - credit-card
+    - dollar-sign
+    - receipt
+  label: Money
+spinners:
+  icons:
+    - arrows-rotate
+    - asterisk
+    - rotate
+    - rotate-left
+  label: Spinners
+security:
+  icons:
+    - eye
+    - eye-slash
+    - lock
+    - shield
+  label: Security
+accessibility:
+  icons:
+    - circle-info
+    - circle-question
+    - eye
+  label: Accessibility
+business:
+  icons:
+    - book
+    - building
+    - bullhorn
+    - calendar
+    - clipboard
+    - envelope
+    - file
+    - file-lines
+    - file-spreadsheet
+    - floppy-disk
+    - pen
+    - pen-to-square
+    - phone
+    - phone-flip
+    - print
+    - scissors
+    - tag
+  label: Business
+mathematics:
+  icons:
+    - circle-plus
+    - circle-xmark
+    - greater-than
+    - less-than
+    - minus
+    - plus
+    - square-minus
+    - xmark
+  label: Mathematics
+text-formatting:
+  icons:
+    - check
+    - circle-check
+    - list
+    - list-ul
+    - square-check
+  label: Text Formatting
+shopping:
+  icons:
+    - bullhorn
+    - cart-shopping
+    - cc-amex
+    - cc-discover
+    - cc-mastercard
+    - cc-visa
+    - credit-card
+    - receipt
+    - tag
+    - thumbs-down
+    - thumbs-up
+    - truck
+  label: Shopping
+toggle:
+  icons:
+    - circle-check
+  label: Toggle
+media-playback:
+  icons:
+    - arrows-maximize
+    - arrows-rotate
+    - circle-play
+    - maximize
+    - rotate
+    - rotate-left
+    - sliders
+  label: Media Playback
+photos-images:
+  icons:
+    - eye
+    - eye-slash
+    - image
+    - sliders
+  label: Photos + Images
+weather:
+  icons:
+    - sparkles
+  label: Weather
+design:
+  icons:
+    - eye
+    - eye-slash
+    - floppy-disk
+    - grid
+    - pen
+    - pen-to-square
+    - scissors
+  label: Design
+gaming:
+  icons:
+    - sparkles
+  label: Gaming
+social:
+  icons:
+    - comment
+    - envelope
+    - image
+    - location-dot
+    - share
+    - sparkles
+    - thumbs-down
+    - thumbs-up
+    - user
+    - users
+  label: Social
+devices-hardware:
+  icons:
+    - download
+    - floppy-disk
+    - print
+    - upload
+  label: Devices + Hardware
+files:
+  icons:
+    - file
+    - file-csv
+    - file-export
+    - file-lines
+    - file-pdf
+    - floppy-disk
+    - scissors
+  label: Files
+users-people:
+  icons:
+    - head-side-mask
+    - user
+    - user-gear
+    - user-helmet-safety
+    - user-pen
+    - users
+  label: Users + People
+coding:
+  icons:
+    - bars
+    - file
+    - file-lines
+    - shield
+  label: Coding
+marketing:
+  icons:
+    - bullhorn
+    - megaphone
+    - sparkles
+  label: Marketing
+maps:
+  icons:
+    - book
+    - building
+    - cart-shopping
+    - circle-info
+    - dollar-sign
+    - eye
+    - eye-slash
+    - image
+    - location-dot
+    - magnifying-glass
+    - phone
+    - phone-flip
+    - plus
+    - print
+    - tag
+    - truck
+  label: Maps
+political:
+  icons:
+    - bullhorn
+  label: Political
+charity:
+  icons:
+    - dollar-sign
+  label: Charity
+halloween:
+  icons:
+    - sparkles
+  label: Halloween
+shapes:
+  icons:
+    - calendar
+    - comment
+    - file
+    - shield
+    - square
+  label: Shapes
+alert:
+  icons:
+    - bell-on
+    - circle-exclamation
+    - triangle-exclamation
+  label: Alert
+writing:
+  icons:
+    - book
+    - envelope
+    - file
+    - file-lines
+    - pen
+    - pen-to-square
+    - quote-left
+  label: Writing
+energy:
+  icons:
+    - gas-pump
+  label: Energy
+household:
+  icons:
+    - bell-on
+  label: Household
+automotive:
+  icons:
+    - gas-pump
+    - truck
+  label: Automotive
+humanitarian:
+  icons:
+    - building
+    - envelope
+    - file
+    - file-csv
+    - file-pdf
+    - gas-pump
+    - trash-can
+    - truck
+  label: Humanitarian

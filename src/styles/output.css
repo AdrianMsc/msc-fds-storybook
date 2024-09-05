@@ -1918,6 +1918,20 @@ video {
   text-decoration-line: underline;
 }
 
+.msc-dd-link {
+  display: flex;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(13 58 169 / var(--tw-text-opacity));
+}
+
+.msc-dd-link:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
 .msc-dd-link-sm {
   display: flex;
   font-size: 0.875rem;
@@ -2315,6 +2329,10 @@ h6 {
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {

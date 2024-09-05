@@ -1,0 +1,4463 @@
+---
+dollar-sign:
+  aliases:
+    names:
+      - dollar
+      - usd
+    unicodes:
+      composite:
+        - 1f4b2
+        - f155
+      primary:
+        - f155
+      secondary:
+        - '1024'
+        - 10f155
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.0.9
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Dollar Sign
+  search:
+    terms:
+      - Dollar Sign
+      - coupon
+      - currency
+      - dollar
+      - heavy dollar sign
+      - investment
+      - money
+      - premium
+      - revenue
+      - salary
+  unicode: '24'
+  voted: false
+print:
+  aliases:
+    unicodes:
+      composite:
+        - 1f5a8
+        - 1f5b6
+        - '2399'
+      secondary:
+        - 10f02f
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.3.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Print
+  search:
+    terms:
+      - Print Screen Symbol
+      - Printer Icon
+      - business
+      - computer
+      - copy
+      - document
+      - office
+      - paper
+      - printer
+  unicode: f02f
+  voted: false
+thumbs-up:
+  aliases:
+    unicodes:
+      composite:
+        - 1f44d
+        - f087
+      secondary:
+        - 10f164
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Thumbs Up
+  search:
+    terms:
+      - '+1'
+      - agree
+      - approve
+      - favorite
+      - hand
+      - like
+      - ok
+      - okay
+      - social
+      - success
+      - thumb
+      - thumbs up
+      - thumbs-o-up
+      - up
+      - 'yes'
+      - you got it dude
+  unicode: f164
+  voted: false
+circle-xmark:
+  aliases:
+    names:
+      - times-circle
+      - xmark-circle
+    unicodes:
+      composite:
+        - f05c
+      secondary:
+        - 10f057
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Circle Xmark
+  search:
+    terms:
+      - close
+      - cross
+      - destroy
+      - exit
+      - incorrect
+      - notice
+      - notification
+      - notify
+      - problem
+      - uncheck
+      - wrong
+      - x
+  unicode: f057
+  voted: false
+file-spreadsheet:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f65b
+  changes:
+    - 5.3.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: File Spreadsheet
+  search:
+    terms:
+      - csv
+      - document
+      - excel
+      - numbers
+      - sheets
+      - xls
+  unicode: f65b
+  voted: false
+share:
+  aliases:
+    names:
+      - mail-forward
+    unicodes:
+      secondary:
+        - 10f064
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Share
+  search:
+    terms:
+      - forward
+      - save
+      - send
+      - social
+  unicode: f064
+  voted: false
+triangle-exclamation:
+  aliases:
+    names:
+      - exclamation-triangle
+      - warning
+    unicodes:
+      composite:
+        - 26a0
+      secondary:
+        - 10f071
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.6.1
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Triangle Exclamation
+  search:
+    terms:
+      - alert
+      - attention
+      - danger
+      - error
+      - failed
+      - important
+      - notice
+      - notification
+      - notify
+      - problem
+      - required
+      - warnin
+      - warning
+  unicode: f071
+  voted: false
+chevrons-right:
+  aliases:
+    names:
+      - chevron-double-right
+    unicodes:
+      secondary:
+        - 10f324
+  changes:
+    - 5.0.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Chevrons Right
+  search:
+    terms:
+      - arrow
+      - bracket
+      - forward
+      - next
+  unicode: f324
+  voted: false
+angle-left:
+  aliases:
+    unicodes:
+      composite:
+        - '2039'
+      secondary:
+        - 10f104
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Angle Left
+  search:
+    terms:
+      - Single Left-Pointing Angle Quotation Mark
+      - arrow
+      - back
+      - caret
+      - less
+      - previous
+  unicode: f104
+  voted: false
+check:
+  aliases:
+    unicodes:
+      composite:
+        - '2713'
+        - '2714'
+      secondary:
+        - 10f00c
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Check
+  search:
+    terms:
+      - Check Mark
+      - accept
+      - agree
+      - check
+      - check mark
+      - checkmark
+      - confirm
+      - correct
+      - coupon
+      - done
+      - enable
+      - mark
+      - notice
+      - notification
+      - notify
+      - ok
+      - select
+      - success
+      - tick
+      - todo
+      - 'true'
+      - validate
+      - working
+      - 'yes'
+      - ✓
+  unicode: f00c
+  voted: false
+book:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4d4
+      secondary:
+        - 10f02d
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Book
+  search:
+    terms:
+      - book
+      - cover
+      - decorated
+      - diary
+      - documentation
+      - journal
+      - knowledge
+      - library
+      - notebook
+      - notebook with decorative cover
+      - read
+      - research
+      - scholar
+  unicode: f02d
+  voted: false
+circle-plus:
+  aliases:
+    names:
+      - plus-circle
+    unicodes:
+      secondary:
+        - 10f055
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Circle Plus
+  search:
+    terms:
+      - add
+      - create
+      - expand
+      - new
+      - positive
+      - shape
+  unicode: f055
+  voted: false
+calendar:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4c5
+        - 1f4c6
+      secondary:
+        - 10f133
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Calendar
+  search:
+    terms:
+      - calendar
+      - calendar-o
+      - date
+      - day
+      - event
+      - month
+      - schedule
+      - tear-off calendar
+      - time
+      - when
+      - year
+  unicode: f133
+  voted: false
+twitter:
+  changes:
+    - 2.0.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Twitter
+  search:
+    terms:
+      - social network
+      - tweet
+  unicode: f099
+  voted: false
+shield:
+  aliases:
+    names:
+      - shield-blank
+    unicodes:
+      composite:
+        - 1f6e1
+      secondary:
+        - 10f132
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Shield
+  search:
+    terms:
+      - achievement
+      - armor
+      - award
+      - block
+      - cleric
+      - defend
+      - defense
+      - holy
+      - paladin
+      - protect
+      - safety
+      - security
+      - shield
+      - weapon
+      - winner
+  unicode: f132
+  voted: false
+file-export:
+  aliases:
+    names:
+      - arrow-right-from-file
+    unicodes:
+      secondary:
+        - 10f56e
+  changes:
+    - 5.1.0
+    - 5.7.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: File Export
+  search:
+    terms:
+      - download
+      - save
+  unicode: f56e
+  voted: true
+clock-rotate-left:
+  aliases:
+    names:
+      - history
+    unicodes:
+      secondary:
+        - 10f1da
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Clock Rotate Left
+  search:
+    terms:
+      - Rewind
+      - clock
+      - pending
+      - reverse
+      - time
+      - time machine
+      - time travel
+      - waiting
+  unicode: f1da
+  voted: false
+building:
+  aliases:
+    unicodes:
+      composite:
+        - 1f3e2
+        - f0f7
+      secondary:
+        - 10f1ad
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Building
+  search:
+    terms:
+      - apartment
+      - building
+      - business
+      - city
+      - company
+      - office
+      - office building
+      - urban
+      - work
+  unicode: f1ad
+  voted: false
+warehouse:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f494
+  changes:
+    - 5.0.7
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Warehouse
+  search:
+    terms:
+      - building
+      - capacity
+      - garage
+      - inventory
+      - storage
+  unicode: f494
+  voted: false
+rotate:
+  aliases:
+    names:
+      - sync-alt
+    unicodes:
+      composite:
+        - 1f504
+      secondary:
+        - 10f2f1
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Rotate
+  search:
+    terms:
+      - arrow
+      - clockwise
+      - exchange
+      - modify
+      - refresh
+      - reload
+      - renew
+      - retry
+      - rotate
+      - swap
+      - withershins
+  unicode: f2f1
+  voted: false
+youtube:
+  aliases:
+    unicodes:
+      composite:
+        - f16a
+  changes:
+    - 3.2.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: YouTube
+  search:
+    terms:
+      - film
+      - video
+      - youtube-play
+      - youtube-square
+  unicode: f167
+  voted: false
+cc-amex:
+  changes:
+    - 4.2.0
+    - 5.0.0
+    - 5.7.0
+    - 6.1.2
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Cc Amex
+  search:
+    terms:
+      - amex
+  unicode: f1f3
+  voted: false
+chevron-right:
+  aliases:
+    unicodes:
+      composite:
+        - 232a
+      secondary:
+        - 10f054
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Chevron Right
+  search:
+    terms:
+      - Right-Pointing Angle Bracket
+      - arrow
+      - bracket
+      - forward
+      - next
+  unicode: f054
+  voted: false
+chevron-left:
+  aliases:
+    unicodes:
+      composite:
+        - '2329'
+      secondary:
+        - 10f053
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Chevron Left
+  search:
+    terms:
+      - Left-Pointing Angle Bracket
+      - arrow
+      - back
+      - bracket
+      - previous
+  unicode: f053
+  voted: false
+angle-up:
+  aliases:
+    unicodes:
+      composite:
+        - '2303'
+      secondary:
+        - 10f106
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Angle Up
+  search:
+    terms:
+      - Up Arrowhead
+      - arrow
+      - caret
+      - collapse
+      - upgrade
+      - upload
+  unicode: f106
+  voted: false
+quote-left:
+  aliases:
+    names:
+      - quote-left-alt
+    unicodes:
+      composite:
+        - 201c
+      secondary:
+        - 10f10d
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 5.0.9
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Quote Left
+  search:
+    terms:
+      - Left Double Quotation Mark
+      - mention
+      - note
+      - phrase
+      - text
+      - type
+  unicode: f10d
+  voted: false
+xmark:
+  aliases:
+    names:
+      - close
+      - multiply
+      - remove
+      - times
+    unicodes:
+      composite:
+        - 1f5d9
+        - '2715'
+        - '2716'
+        - 274c
+        - d7
+      secondary:
+        - 10f00d
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.13
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Xmark
+  search:
+    terms:
+      - Cancellation X
+      - Multiplication Sign
+      - Multiplication X
+      - cancel
+      - close
+      - cross
+      - cross mark
+      - error
+      - exit
+      - incorrect
+      - mark
+      - multiplication
+      - multiply
+      - notice
+      - notification
+      - notify
+      - problem
+      - sign
+      - uncheck
+      - wrong
+      - x
+      - ×
+  unicode: f00d
+  voted: false
+plus:
+  aliases:
+    names:
+      - add
+    unicodes:
+      composite:
+        - '2795'
+        - f067
+      primary:
+        - f067
+      secondary:
+        - 102b
+        - 10f067
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Plus
+  search:
+    terms:
+      - 0
+      - Plus Sign
+      - add
+      - create
+      - expand
+      - follow
+      - math
+      - modify
+      - new
+      - plus
+      - positive
+      - shape
+      - sign
+  unicode: 2b
+  voted: false
+megaphone:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4e3
+      secondary:
+        - 10f675
+  changes:
+    - 5.3.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Megaphone
+  search:
+    terms:
+      - announcement
+      - broadcast
+      - bullhorn
+      - cheering
+      - louder
+      - megaphone
+      - share
+  unicode: f675
+  voted: false
+arrow-up:
+  aliases:
+    unicodes:
+      composite:
+        - '2191'
+      secondary:
+        - 10f062
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Arrow Up
+  search:
+    terms:
+      - Upwards Arrow
+      - forward
+      - upgrade
+      - upload
+  unicode: f062
+  voted: false
+list-ul:
+  aliases:
+    names:
+      - list-dots
+    unicodes:
+      secondary:
+        - 10f0ca
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.9.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: List Ul
+  search:
+    terms:
+      - bullet
+      - cheatsheet
+      - checklist
+      - completed
+      - done
+      - finished
+      - ol
+      - summary
+      - todo
+      - ul
+  unicode: f0ca
+  voted: false
+chevron-down:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f078
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Chevron Down
+  search:
+    terms:
+      - arrow
+      - download
+      - expand
+      - insert
+  unicode: f078
+  voted: false
+receipt:
+  aliases:
+    unicodes:
+      composite:
+        - 1f9fe
+      secondary:
+        - 10f543
+  changes:
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Receipt
+  search:
+    terms:
+      - accounting
+      - bookkeeping
+      - check
+      - coupon
+      - evidence
+      - invoice
+      - money
+      - pay
+      - proof
+      - receipt
+      - table
+  unicode: f543
+  voted: true
+chevrons-down:
+  aliases:
+    names:
+      - chevron-double-down
+    unicodes:
+      secondary:
+        - 10f322
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Chevrons Down
+  search:
+    terms:
+      - arrow
+      - download
+      - expand
+  unicode: f322
+  voted: false
+magnifying-glass:
+  aliases:
+    names:
+      - search
+    unicodes:
+      composite:
+        - 1f50d
+      secondary:
+        - 10f002
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: light
+  label: Magnifying Glass
+  search:
+    terms:
+      - bigger
+      - enlarge
+      - equipment
+      - find
+      - glass
+      - inspection
+      - magnifier
+      - magnify
+      - magnifying
+      - magnifying glass tilted left
+      - preview
+      - search
+      - tool
+      - zoom
+  unicode: f002
+  voted: false
+message-quote:
+  aliases:
+    names:
+      - comment-alt-quote
+  changes:
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Message Quote
+  search:
+    terms:
+      - answer
+      - chat
+      - quote
+  unicode: e1e4
+  voted: false
+arrow-down:
+  aliases:
+    unicodes:
+      composite:
+        - '2193'
+      secondary:
+        - 10f063
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Arrow Down
+  search:
+    terms:
+      - Downwards Arrow
+      - download
+  unicode: f063
+  voted: false
+greater-than:
+  aliases:
+    unicodes:
+      composite:
+        - f531
+      primary:
+        - f531
+      secondary:
+        - 103e
+        - 10f531
+  changes:
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Greater Than
+  search:
+    terms:
+      - Greater-Than Sign
+      - arithmetic
+      - compare
+      - math
+  unicode: 3e
+  voted: true
+file:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4c4
+        - 1f5cb
+        - f016
+      secondary:
+        - 10f15b
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: File
+  search:
+    terms:
+      - Empty Document
+      - cv
+      - document
+      - new
+      - page
+      - page facing up
+      - pdf
+      - resume
+  unicode: f15b
+  voted: false
+location-dot:
+  aliases:
+    names:
+      - map-marker-alt
+    unicodes:
+      secondary:
+        - 10f3c5
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Location Dot
+  search:
+    terms:
+      - address
+      - coordinates
+      - destination
+      - gps
+      - localize
+      - location
+      - map
+      - navigation
+      - paper
+      - pin
+      - place
+      - point of interest
+      - position
+      - route
+      - travel
+  unicode: f3c5
+  voted: false
+credit-card:
+  aliases:
+    names:
+      - credit-card-alt
+    unicodes:
+      composite:
+        - 1f4b3
+        - f283
+      secondary:
+        - 10f09d
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Credit Card
+  search:
+    terms:
+      - buy
+      - card
+      - checkout
+      - credit
+      - credit card
+      - credit-card-alt
+      - debit
+      - money
+      - payment
+      - purchase
+  unicode: f09d
+  voted: false
+ellipsis:
+  aliases:
+    names:
+      - ellipsis-h
+    unicodes:
+      secondary:
+        - 10f141
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Ellipsis
+  search:
+    terms:
+      - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - pacman
+      - reorder
+      - settings
+      - three dots
+      - ul
+  unicode: f141
+  voted: false
+thumbs-down:
+  aliases:
+    unicodes:
+      composite:
+        - 1f44e
+        - f088
+      secondary:
+        - 10f165
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Thumbs Down
+  search:
+    terms:
+      - '-1'
+      - disagree
+      - disapprove
+      - dislike
+      - down
+      - hand
+      - social
+      - thumb
+      - thumbs down
+      - thumbs-o-down
+  unicode: f165
+  voted: false
+angle-down:
+  aliases:
+    unicodes:
+      composite:
+        - '2304'
+      secondary:
+        - 10f107
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Angle Down
+  search:
+    terms:
+      - Down Arrowhead
+      - arrow
+      - caret
+      - download
+      - expand
+      - insert
+  unicode: f107
+  voted: false
+less-than:
+  aliases:
+    unicodes:
+      composite:
+        - f536
+      primary:
+        - f536
+      secondary:
+        - 103c
+        - 10f536
+  changes:
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Less Than
+  search:
+    terms:
+      - Less-Than Sign
+      - arithmetic
+      - compare
+      - math
+  unicode: 3c
+  voted: true
+upload:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f093
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Upload
+  search:
+    terms:
+      - hard drive
+      - import
+      - publish
+      - upgrade
+  unicode: f093
+  voted: false
+facebook:
+  aliases:
+    unicodes:
+      composite:
+        - f230
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.8.2
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Facebook
+  search:
+    terms:
+      - fabook
+      - facebook-official
+      - fb
+      - social network
+  unicode: f09a
+  voted: false
+instagram:
+  changes:
+    - 4.6.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Instagram
+  search:
+    terms: []
+  unicode: f16d
+  voted: false
+download:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f019
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Download
+  search:
+    terms:
+      - export
+      - hard drive
+      - insert
+      - save
+      - transfer
+  unicode: f019
+  voted: false
+figma:
+  changes:
+    - 5.6.0
+    - 5.7.0
+    - 5.8.0
+    - 5.15.4
+    - 6.0.0-beta2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Figma
+  search:
+    terms:
+      - app
+      - design
+      - interface
+  unicode: f799
+  voted: false
+ellipsis-vertical:
+  aliases:
+    names:
+      - ellipsis-v
+    unicodes:
+      secondary:
+        - 10f142
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Ellipsis Vertical
+  search:
+    terms:
+      - bullet
+      - dots
+      - drag
+      - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - three dots
+      - ul
+  unicode: f142
+  voted: false
+sliders:
+  aliases:
+    names:
+      - sliders-h
+    unicodes:
+      secondary:
+        - 10f1de
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: light
+  label: Sliders
+  search:
+    terms:
+      - adjust
+      - configuration
+      - modify
+      - settings
+      - sliders
+      - toggle
+  unicode: f1de
+  voted: false
+linkedin:
+  changes:
+    - 1.0.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: LinkedIn
+  search:
+    terms:
+      - linkedin-square
+      - linkin
+  unicode: f08c
+  voted: false
+caret-down:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0d7
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Caret Down
+  search:
+    terms:
+      - arrow
+      - dropdown
+      - expand
+      - menu
+      - more
+      - triangle
+  unicode: f0d7
+  voted: false
+arrows-maximize:
+  aliases:
+    names:
+      - expand-arrows
+    unicodes:
+      secondary:
+        - 10f31d
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Arrows Maximize
+  search:
+    terms:
+      -   maximize
+      -   resize
+      -   scale
+      -  arrows
+      -  bigger
+      -  enlarge
+      -  fullscreen
+      -  resize
+      -  size
+      - expand
+  unicode: f31d
+  voted: false
+clock:
+  aliases:
+    names:
+      - clock-four
+    unicodes:
+      composite:
+        - 1f553
+      secondary:
+        - 10f017
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.12.1
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Clock
+  search:
+    terms:
+      - '00'
+      - '4'
+      - 4:00
+      - clock
+      - date
+      - four
+      - four o’clock
+      - hour
+      - late
+      - minute
+      - o'clock
+      - o’clock
+      - pending
+      - schedule
+      - ticking
+      - time
+      - timer
+      - timestamp
+      - watch
+  unicode: f017
+  voted: false
+cart-shopping:
+  aliases:
+    names:
+      - shopping-cart
+    unicodes:
+      composite:
+        - 1f6d2
+      secondary:
+        - 10f07a
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Cart Shopping
+  search:
+    terms:
+      - buy
+      - cart
+      - checkout
+      - grocery
+      - payment
+      - purchase
+      - shopping
+      - shopping cart
+      - trolley
+  unicode: f07a
+  voted: false
+minus:
+  aliases:
+    names:
+      - subtract
+    unicodes:
+      composite:
+        - '2013'
+        - '2212'
+        - '2796'
+      secondary:
+        - 10f068
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: light
+  label: Minus
+  search:
+    terms:
+      - En Dash
+      - Minus Sign
+      - collapse
+      - delete
+      - hide
+      - math
+      - minify
+      - minus
+      - negative
+      - remove
+      - sign
+      - trash
+      - −
+  unicode: f068
+  voted: false
+x-twitter:
+  changes:
+    - 6.4.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: X Twitter
+  search:
+    terms:
+      -   elon
+      -  twitter
+      -  x
+  unicode: e61b
+  voted: false
+truck:
+  aliases:
+    unicodes:
+      composite:
+        - 1f69a
+        - 26df
+      secondary:
+        - 10f0d1
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.0.7
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Truck
+  search:
+    terms:
+      - Black Truck
+      - cargo
+      - delivery
+      - delivery truck
+      - shipping
+      - truck
+      - vehicle
+  unicode: f0d1
+  voted: false
+circle-info:
+  aliases:
+    names:
+      - info-circle
+    unicodes:
+      secondary:
+        - 10f05a
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Circle Info
+  search:
+    terms:
+      - details
+      - help
+      - information
+      - more
+      - support
+  unicode: f05a
+  voted: false
+envelope:
+  aliases:
+    unicodes:
+      composite:
+        - 1f582
+        - '2709'
+        - f003
+      secondary:
+        - 10f0e0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Envelope
+  search:
+    terms:
+      - Back of Envelope
+      - e-mail
+      - email
+      - envelope
+      - letter
+      - mail
+      - message
+      - newsletter
+      - notification
+      - offer
+      - support
+  unicode: f0e0
+  voted: false
+comment:
+  aliases:
+    unicodes:
+      composite:
+        - 1f5e9
+        - f0e5
+      secondary:
+        - 10f075
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.9
+    - 5.10.1
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Comment
+  search:
+    terms:
+      -  conversation
+      -  discussion
+      -  talking
+      - Right Speech Bubble
+      - answer
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - note
+      - notification
+      - sms
+      - speech
+      - talk
+      - texting
+  unicode: f075
+  voted: false
+tag:
+  aliases:
+    unicodes:
+      composite:
+        - 1f3f7
+      secondary:
+        - 10f02b
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Tag
+  search:
+    terms:
+      - discount
+      - labe
+      - label
+      - price
+      - shopping
+  unicode: f02b
+  voted: false
+file-pdf:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f1c1
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: File Pdf
+  search:
+    terms:
+      - acrobat
+      - document
+      - preview
+      - save
+  unicode: f1c1
+  voted: false
+arrow-left:
+  aliases:
+    unicodes:
+      composite:
+        - '2190'
+      secondary:
+        - 10f060
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Arrow Left
+  search:
+    terms:
+      - Leftwards Arrow
+      - back
+      - previous
+  unicode: f060
+  voted: false
+trash:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f1f8
+  changes:
+    - 4.2.0
+    - 5.0.0
+    - 5.7.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Trash
+  search:
+    terms:
+      - delete
+      - garbage
+      - hide
+      - remove
+  unicode: f1f8
+  voted: false
+user-gear:
+  aliases:
+    names:
+      - user-cog
+    unicodes:
+      secondary:
+        - 10f4fe
+  changes:
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: User Gear
+  search:
+    terms:
+      - employee
+      - together
+      - uer
+      - users-people
+  unicode: f4fe
+  voted: false
+phone:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4de
+        - 1f57b
+      secondary:
+        - 10f095
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Phone
+  search:
+    terms:
+      - Left Hand Telephone Receiver
+      - call
+      - earphone
+      - number
+      - phone
+      - receiver
+      - support
+      - talking
+      - telephone
+      - telephone receiver
+      - voice
+  unicode: f095
+  voted: false
+floppy-disk:
+  aliases:
+    names:
+      - save
+    unicodes:
+      composite:
+        - 1f4be
+        - 1f5aa
+      secondary:
+        - 10f0c7
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Floppy Disk
+  search:
+    terms:
+      - Black Hard Shell Floppy Disk
+      - computer
+      - disk
+      - download
+      - floppy
+      - floppy disk
+      - floppy-o
+  unicode: f0c7
+  voted: false
+pen:
+  aliases:
+    unicodes:
+      composite:
+        - 1f58a
+      secondary:
+        - 10f304
+  changes:
+    - 5.0.0
+    - 5.1.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Pen
+  search:
+    terms:
+      - ballpoint
+      - design
+      - edit
+      - modify
+      - pen
+      - update
+      - write
+  unicode: f304
+  voted: false
+eye:
+  aliases:
+    unicodes:
+      composite:
+        - 1f441
+      secondary:
+        - 10f06e
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Eye
+  search:
+    terms:
+      - body
+      - eye
+      - look
+      - optic
+      - see
+      - seen
+      - show
+      - sight
+      - views
+      - visible
+  unicode: f06e
+  voted: false
+phone-flip:
+  aliases:
+    names:
+      - phone-alt
+    unicodes:
+      composite:
+        - 1f57d
+      secondary:
+        - 10f879
+  changes:
+    - 5.9.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Phone Flip
+  search:
+    terms:
+      - Right Hand Telephone Receiver
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  unicode: f879
+  voted: false
+circle-question:
+  aliases:
+    names:
+      - question-circle
+    unicodes:
+      composite:
+        - f29c
+      secondary:
+        - 10f059
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Circle Question
+  search:
+    terms:
+      - faq
+      - help
+      - information
+      - support
+      - unknown
+  unicode: f059
+  voted: false
+screwdriver-wrench:
+  aliases:
+    names:
+      - tools
+    unicodes:
+      secondary:
+        - 10f7d9
+  changes:
+    - 5.6.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Screwdriver Wrench
+  search:
+    terms:
+      - admin
+      - configuration
+      - equipment
+      - fix
+      - maintenance
+      - modify
+      - repair
+      - screwdriver
+      - settings
+      - tools
+      - wrench
+  unicode: f7d9
+  voted: true
+arrow-right:
+  aliases:
+    unicodes:
+      composite:
+        - '2192'
+      secondary:
+        - 10f061
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Arrow Right
+  search:
+    terms:
+      - Rightwards Arrow
+      - forward
+      - next
+  unicode: f061
+  voted: false
+square:
+  aliases:
+    unicodes:
+      composite:
+        - 25a0
+        - 25fb
+        - 25fc
+        - f096
+      secondary:
+        - 10f0c8
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+    pro:
+      - family: classic
+        style: regular
+  label: Square
+  search:
+    terms:
+      - Black Square
+      - black medium square
+      - block
+      - box
+      - geometric
+      - shape
+      - square
+      - white medium square
+  unicode: f0c8
+  voted: false
+arrows-rotate:
+  aliases:
+    names:
+      - refresh
+      - sync
+    unicodes:
+      composite:
+        - 1f5d8
+      secondary:
+        - 10f021
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.8.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Arrows Rotate
+  search:
+    terms:
+      - Clockwise Right and Left Semicircle Arrows
+      - clockwise
+      - exchange
+      - modify
+      - refresh
+      - reload
+      - renew
+      - retry
+      - rotate
+      - swap
+  unicode: f021
+  voted: false
+apple:
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.0.7
+    - 5.8.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Apple
+  search:
+    terms:
+      - fruit
+      - ios
+      - mac
+      - operating system
+      - os
+      - osx
+  unicode: f179
+  voted: false
+arrow-down-long:
+  aliases:
+    names:
+      - long-arrow-down
+    unicodes:
+      secondary:
+        - 10f175
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Arrow Down Long
+  search:
+    terms:
+      - download
+      - long-arrow-down
+  unicode: f175
+  voted: false
+cc-discover:
+  changes:
+    - 4.2.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Discover Credit Card
+  search:
+    terms: []
+  unicode: f1f2
+  voted: false
+circle-check:
+  aliases:
+    names:
+      - check-circle
+    unicodes:
+      composite:
+        - f05d
+      secondary:
+        - 10f058
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Circle Check
+  search:
+    terms:
+      - accept
+      - affected
+      - agree
+      - clear
+      - confirm
+      - correct
+      - coupon
+      - done
+      - enable
+      - ok
+      - select
+      - success
+      - tick
+      - todo
+      - validate
+      - working
+      - 'yes'
+  unicode: f058
+  voted: false
+circle-play:
+  aliases:
+    names:
+      - play-circle
+    unicodes:
+      composite:
+        - f01d
+      secondary:
+        - 10f144
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Circle Play
+  search:
+    terms:
+      - audio
+      - music
+      - playing
+      - sound
+      - start
+      - video
+  unicode: f144
+  voted: false
+head-side-mask:
+  aliases:
+    unicodes:
+      secondary:
+        - '10e063'
+  changes:
+    - 5.13.0
+    - 5.14.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Head Side Mask
+  search:
+    terms:
+      - breath
+      - coronavirus
+      - covid-19
+      - filter
+      - flu
+      - infection
+      - pandemic
+      - respirator
+      - uer
+      - virus
+  unicode: e063
+  voted: false
+rotate-left:
+  aliases:
+    names:
+      - rotate-back
+      - rotate-backward
+      - undo-alt
+    unicodes:
+      secondary:
+        - 10f2ea
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Rotate Left
+  search:
+    terms:
+      - back
+      - control z
+      - exchange
+      - oops
+      - return
+      - swap
+  unicode: f2ea
+  voted: false
+caret-up:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0d8
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Caret Up
+  search:
+    terms:
+      - arrow
+      - collapse
+      - triangle
+      - upgrade
+  unicode: f0d8
+  voted: false
+image:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f03e
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.10.1
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Image
+  search:
+    terms:
+      - album
+      - img
+      - landscape
+      - photo
+      - picture
+  unicode: f03e
+  voted: false
+message-lines:
+  aliases:
+    names:
+      - comment-alt-lines
+    unicodes:
+      secondary:
+        - 10f4a6
+  changes:
+    - 5.0.9
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Message Lines
+  search:
+    terms:
+      - answer
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - note
+      - notification
+      - sms
+      - speech
+      - texting
+  unicode: f4a6
+  voted: false
+user-pen:
+  aliases:
+    names:
+      - user-edit
+    unicodes:
+      secondary:
+        - 10f4ff
+  changes:
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: User Pen
+  search:
+    terms:
+      - employee
+      - modify
+      - uer
+      - users-people
+  unicode: f4ff
+  voted: false
+messages:
+  aliases:
+    names:
+      - comments-alt
+    unicodes:
+      secondary:
+        - 10f4b6
+  changes:
+    - 5.0.9
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Messages
+  search:
+    terms:
+      -  conversation
+      -  discussion
+      -  talking
+      - answer
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - note
+      - notification
+      - sms
+      - speech
+      - talk
+      - texting
+  unicode: f4b6
+  voted: false
+clipboard:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4cb
+      secondary:
+        - 10f328
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Clipboard
+  search:
+    terms:
+      - clipboar
+      - clipboard
+      - copy
+      - notepad
+      - notes
+      - paste
+      - record
+  unicode: f328
+  voted: false
+cc-mastercard:
+  changes:
+    - 4.2.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: MasterCard Credit Card
+  search:
+    terms: []
+  unicode: f1f1
+  voted: false
+maximize:
+  aliases:
+    names:
+      - expand-arrows-alt
+    unicodes:
+      secondary:
+        - 10f31e
+  changes:
+    - 5.0.0
+    - 5.8.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Maximize
+  search:
+    terms:
+      -   maximize
+      -   resize
+      -   scale
+      -  arrows
+      -  bigger
+      -  enlarge
+      -  fullscreen
+      -  resize
+      -  size
+      - expand
+  unicode: f31e
+  voted: false
+bullhorn:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4e2
+        - 1f56b
+      secondary:
+        - 10f0a1
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.3.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Bullhorn
+  search:
+    terms:
+      - Bullhorn
+      - announcement
+      - broadcast
+      - loud
+      - louder
+      - loudspeaker
+      - megaphone
+      - public address
+      - request
+      - share
+  unicode: f0a1
+  voted: false
+user:
+  aliases:
+    unicodes:
+      composite:
+        - 1f464
+        - f2c0
+      secondary:
+        - 10f007
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: User
+  search:
+    terms:
+      - adult
+      - bust
+      - bust in silhouette
+      - default
+      - employee
+      - gender-neutral
+      - person
+      - profile
+      - silhouette
+      - uer
+      - unspecified gender
+      - username
+      - users-people
+  unicode: f007
+  voted: false
+angle-right:
+  aliases:
+    unicodes:
+      composite:
+        - 203a
+      secondary:
+        - 10f105
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Angle Right
+  search:
+    terms:
+      - Single Right-Pointing Angle Quotation Mark
+      - arrow
+      - care
+      - forward
+      - more
+      - next
+  unicode: f105
+  voted: false
+bell-on:
+  aliases:
+    unicodes:
+      composite:
+        - 1f56d
+      secondary:
+        - 10f8fa
+  changes:
+    - 5.12.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Bell On
+  search:
+    terms:
+      - Ringing Bell
+      - alarm
+      - alert
+      - chime
+      - notification
+      - reminder
+      - request
+  unicode: f8fa
+  voted: false
+sparkles:
+  aliases:
+    unicodes:
+      composite:
+        - '2728'
+      secondary:
+        - 10f890
+  changes:
+    - 5.9.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Sparkles
+  search:
+    terms:
+      - '*'
+      - glitter
+      - magic
+      - new
+      - sparkle
+      - sparkles
+      - special
+      - star
+      - twinkle
+  unicode: f890
+  voted: false
+user-helmet-safety:
+  aliases:
+    names:
+      - user-construction
+      - user-hard-hat
+    unicodes:
+      composite:
+        - 1f477
+      secondary:
+        - 10f82c
+  changes:
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: User Helmet Safety
+  search:
+    terms:
+      - construction
+      - construction worker
+      - employee
+      - hardhat
+      - hat
+      - helmet
+      - maintenance
+      - safety
+      - uer
+      - worker
+  unicode: f82c
+  voted: false
+google:
+  changes:
+    - 4.1.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Google Logo
+  search:
+    terms: []
+  unicode: f1a0
+  voted: false
+chevron-up:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f077
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Chevron Up
+  search:
+    terms:
+      - arrow
+      - collapse
+      - upgrade
+      - upload
+  unicode: f077
+  voted: false
+eye-slash:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f070
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Eye Slash
+  search:
+    terms:
+      - blind
+      - disabled
+      - hide
+      - show
+      - toggle
+      - unseen
+      - views
+      - visible
+      - visiblity
+  unicode: f070
+  voted: false
+users:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0c0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Users
+  search:
+    terms:
+      - employee
+      - together
+      - uer
+      - users-people
+  unicode: f0c0
+  voted: false
+pen-to-square:
+  aliases:
+    names:
+      - edit
+    unicodes:
+      secondary:
+        - 10f044
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Pen To Square
+  search:
+    terms:
+      - edit
+      - modify
+      - pen
+      - pencil
+      - update
+      - write
+  unicode: f044
+  voted: false
+gas-pump:
+  aliases:
+    unicodes:
+      composite:
+        - 26fd
+      secondary:
+        - 10f52f
+  changes:
+    - 5.0.13
+    - 5.10.1
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Gas Pump
+  search:
+    terms:
+      - car
+      - diesel
+      - fuel
+      - fuel pump
+      - fuelpump
+      - gas
+      - gasoline
+      - petrol
+      - pump
+      - station
+  unicode: f52f
+  voted: true
+lock:
+  aliases:
+    unicodes:
+      composite:
+        - 1f512
+      secondary:
+        - 10f023
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Lock
+  search:
+    terms:
+      - admin
+      - closed
+      - lock
+      - locked
+      - open
+      - padlock
+      - password
+      - privacy
+      - private
+      - protect
+      - security
+  unicode: f023
+  voted: false
+list:
+  aliases:
+    names:
+      - list-squares
+    unicodes:
+      secondary:
+        - 10f03a
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.9.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: List
+  search:
+    terms:
+      - bullet
+      - category
+      - cheatsheet
+      - checklist
+      - completed
+      - done
+      - finished
+      - ol
+      - summary
+      - todo
+      - ul
+  unicode: f03a
+  voted: false
+square-check:
+  aliases:
+    names:
+      - check-square
+    unicodes:
+      composite:
+        - '2611'
+        - '2705'
+        - f046
+      secondary:
+        - 10f14a
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Square Check
+  search:
+    terms:
+      - accept
+      - agree
+      - box
+      - button
+      - check
+      - check box with check
+      - check mark button
+      - checkmark
+      - confirm
+      - correct
+      - coupon
+      - done
+      - enable
+      - mark
+      - ok
+      - select
+      - success
+      - tick
+      - todo
+      - validate
+      - working
+      - 'yes'
+      - ✓
+  unicode: f14a
+  voted: false
+asterisk:
+  aliases:
+    unicodes:
+      composite:
+        - '2731'
+        - f069
+      primary:
+        - f069
+      secondary:
+        - 102a
+        - 10f069
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Asterisk
+  search:
+    terms:
+      - Asterisk
+      - Heavy Asterisk
+      - annotation
+      - details
+      - reference
+      - required
+      - star
+  unicode: 2a
+  voted: false
+arrow-up-to-line:
+  aliases:
+    names:
+      - arrow-to-top
+    unicodes:
+      secondary:
+        - 10f341
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.2
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: light
+  label: Arrow Up To Line
+  search:
+    terms:
+      - import
+      - transfer
+      - upgrade
+      - upload
+  unicode: f341
+  voted: false
+arrow-right-from-bracket:
+  aliases:
+    names:
+      - sign-out
+    unicodes:
+      secondary:
+        - 10f08b
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.5.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: light
+  label: Arrow Right From Bracket
+  search:
+    terms:
+      - arrow
+      - exit
+      - leave
+      - log out
+      - logout
+  unicode: f08b
+  voted: false
+circle-exclamation:
+  aliases:
+    names:
+      - exclamation-circle
+    unicodes:
+      secondary:
+        - 10f06a
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Circle Exclamation
+  search:
+    terms:
+      - affect
+      - alert
+      - attention
+      - damage
+      - danger
+      - error
+      - failed
+      - important
+      - notice
+      - notification
+      - notify
+      - problem
+      - required
+      - warning
+  unicode: f06a
+  voted: false
+caret-left:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0d9
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Caret Left
+  search:
+    terms:
+      - arrow
+      - back
+      - previous
+      - triangle
+  unicode: f0d9
+  voted: false
+square-instagram:
+  aliases:
+    names:
+      - instagram-square
+  changes:
+    - 5.12.1
+    - 5.14.0
+    - 6.1.2
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Square Instagram
+  search:
+    terms: []
+  unicode: e055
+  voted: true
+bars:
+  aliases:
+    names:
+      - navicon
+    unicodes:
+      secondary:
+        - 10f0c9
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+  label: Bars
+  search:
+    terms:
+      - checklist
+      - drag
+      - hamburger
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - todo
+      - ul
+  unicode: f0c9
+  voted: false
+square-minus:
+  aliases:
+    names:
+      - minus-square
+    unicodes:
+      composite:
+        - f147
+      secondary:
+        - 10f146
+  changes:
+    - 3.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Square Minus
+  search:
+    terms:
+      - collapse
+      - delete
+      - hide
+      - minify
+      - negative
+      - remove
+      - shape
+      - trash
+  unicode: f146
+  voted: false
+scissors:
+  aliases:
+    names:
+      - cut
+    unicodes:
+      composite:
+        - '2700'
+        - '2702'
+        - '2704'
+      secondary:
+        - 10f0c4
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.1.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Scissors
+  search:
+    terms:
+      - Black Safety Scissors
+      - White Scissors
+      - clip
+      - cutting
+      - equipment
+      - modify
+      - scissors
+      - snip
+      - tool
+  unicode: f0c4
+  voted: false
+comments:
+  aliases:
+    unicodes:
+      composite:
+        - 1f5ea
+        - f0e6
+      secondary:
+        - 10f086
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.9
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Comments
+  search:
+    terms:
+      -  conversation
+      -  discussion
+      -  talking
+      - Two Speech Bubbles
+      - answer
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - note
+      - notification
+      - sms
+      - speech
+      - talk
+      - texting
+  unicode: f086
+  voted: false
+caret-right:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0da
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Caret Right
+  search:
+    terms:
+      - arrow
+      - forward
+      - next
+      - triangle
+  unicode: f0da
+  voted: false
+grid:
+  aliases:
+    names:
+      - grid-3
+  changes:
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+  label: Grid
+  search:
+    terms:
+      -  collection
+      -  grid
+      - app
+      - compact
+      - filter
+      - sort
+  unicode: e195
+  voted: false
+chevrons-left:
+  aliases:
+    names:
+      - chevron-double-left
+    unicodes:
+      secondary:
+        - 10f323
+  changes:
+    - 5.0.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: regular
+  label: Chevrons Left
+  search:
+    terms:
+      - arrow
+      - back
+      - bracket
+      - previous
+  unicode: f323
+  voted: false
+file-csv:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f6dd
+  changes:
+    - 5.4.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: File Csv
+  search:
+    terms:
+      - document
+      - excel
+      - numbers
+      - spreadsheets
+      - table
+  unicode: f6dd
+  voted: false
+arrow-up-long:
+  aliases:
+    names:
+      - long-arrow-up
+    unicodes:
+      secondary:
+        - 10f176
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Arrow Up Long
+  search:
+    terms:
+      - long-arrow-up
+      - upload
+  unicode: f176
+  voted: false
+chevrons-up:
+  aliases:
+    names:
+      - chevron-double-up
+    unicodes:
+      secondary:
+        - 10f325
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+  label: Chevrons Up
+  search:
+    terms:
+      - arrow
+      - collapse
+      - upgrade
+      - upload
+  unicode: f325
+  voted: false
+file-lines:
+  aliases:
+    names:
+      - file-alt
+      - file-text
+    unicodes:
+      composite:
+        - 1f5b9
+        - 1f5ce
+        - f0f6
+      secondary:
+        - 10f15c
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: File Lines
+  search:
+    terms:
+      - Document
+      - Document with Text
+      - document
+      - file-text
+      - invoice
+      - new
+      - page
+      - pdf
+  unicode: f15c
+  voted: false
+trash-can:
+  aliases:
+    names:
+      - trash-alt
+    unicodes:
+      composite:
+        - f014
+      secondary:
+        - 10f2ed
+  changes:
+    - 5.0.0
+    - 5.7.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Trash Can
+  search:
+    terms:
+      - delete
+      - garbage
+      - hide
+      - remove
+      - trash-o
+  unicode: f2ed
+  voted: false
+cc-visa:
+  changes:
+    - 4.2.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Visa Credit Card
+  search:
+    terms: []
+  unicode: f1f0
+  voted: false

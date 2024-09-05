@@ -1,0 +1,93 @@
+---
+mail-forward:
+  name: share
+photo:
+  name: image
+  prefix: far
+picture-o:
+  name: image
+  prefix: far
+credit-card-alt:
+  name: credit-card
+thumbs-o-down:
+  name: thumbs-down
+  prefix: far
+thumbs-o-up:
+  name: thumbs-up
+  prefix: far
+minus-square-o:
+  name: square-minus
+  prefix: far
+pencil-square-o:
+  name: pen-to-square
+  prefix: far
+reorder:
+  name: bars
+arrows-alt:
+  name: maximize
+edit:
+  name: pen-to-square
+  prefix: far
+file-text:
+  name: file-lines
+close:
+  name: xmark
+map-marker:
+  name: location-dot
+trash-o:
+  name: trash-can
+  prefix: far
+facebook-official:
+  name: facebook
+  prefix: fab
+trash:
+  name: trash-can
+check-square-o:
+  name: square-check
+  prefix: far
+question-circle-o:
+  name: circle-question
+  prefix: far
+file-text-o:
+  name: file-lines
+  prefix: far
+linkedin-square:
+  name: linkedin
+  prefix: fab
+dollar:
+  name: dollar-sign
+save:
+  name: floppy-disk
+  prefix: far
+play-circle-o:
+  name: circle-play
+  prefix: far
+image:
+  name: image
+  prefix: far
+warning:
+  name: triangle-exclamation
+cut:
+  name: scissors
+times-circle-o:
+  name: circle-xmark
+  prefix: far
+group:
+  name: users
+refresh:
+  name: arrows-rotate
+check-circle-o:
+  name: circle-check
+  prefix: far
+youtube-play:
+  name: youtube
+  prefix: fab
+remove:
+  name: xmark
+usd:
+  name: dollar-sign
+navicon:
+  name: bars
+floppy-o:
+  name: floppy-disk
+  prefix: far
