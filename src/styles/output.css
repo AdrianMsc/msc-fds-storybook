@@ -554,6 +554,40 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .main-container {
   height: 100vh;
   width: 100vw;
@@ -2140,6 +2174,90 @@ h6 {
   color: rgb(62 62 62 / var(--tw-text-opacity));
 }
 
+.msc-tabs {
+  display: grid;
+  width: 100%;
+  grid-auto-columns: min-content;
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .msc-tabs {
+    overflow-x: hidden;
+  }
+}
+
+.msc-tabs li {
+  position: relative;
+  flex-grow: 1;
+  cursor: pointer;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  --tw-border-opacity: 16%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(113 113 113 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.msc-tabs li::after {
+  width: 0px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  content: var(--tw-content);
+  transition-duration: 500ms;
+}
+
+.msc-tabs li:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.msc-tabs li a {
+  display: block;
+  width: 100%;
+  text-wrap: nowrap;
+  border-right-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  padding: 0.75rem;
+}
+
+.msc-tabs :last-child a {
+  border-right-width: 0px !important;
+}
+
+.msc-tabs .active {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.msc-tabs .active::after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+  content: var(--tw-content) !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(28 88 238 / var(--tw-bg-opacity)) !important;
+}
+
+.msc-tabs .active:hover {
+  border-color: transparent;
+}
+
 .msc-cart-action-bar {
   width: -moz-fit-content;
   width: fit-content;
@@ -2254,6 +2372,10 @@ h6 {
 
 .left-\[4px\] {
   left: 4px;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 
 .mx-auto {
@@ -2459,6 +2581,14 @@ h6 {
   flex-shrink: 0;
 }
 
+.shrink {
+  flex-shrink: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -2478,12 +2608,30 @@ h6 {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform-none {
   transform: none;
 }
 
 .list-disc {
   list-style-type: disc;
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -3073,6 +3221,12 @@ html {
 .group:hover .group-hover\:text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
 }
 
 @media (min-width: 1024px) {

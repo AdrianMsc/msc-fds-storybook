@@ -36,7 +36,6 @@ const Home = () => {
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </a>
         </div>
-        <MscButtonIcon icon={"fa-solid fa-thumbs-up"} size={"small"} />
       </section>
       <section className=" w-[50%]">
         <Lottie animationData={HomeLottie} loop={true} />

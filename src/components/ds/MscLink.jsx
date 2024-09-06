@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/output.css";
 
 export const MscLink = ({ label, variant, size }) => {
   const variantClasses = {
