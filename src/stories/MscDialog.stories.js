@@ -15,7 +15,7 @@ export default {
   },
 };
 
-export const mscLabels = {
+export const mscDialog = {
   args: {
     title: "Are you sure?",
     text: " You are setting your status as Out of Office. Your organization will see this status until you turn it off.",

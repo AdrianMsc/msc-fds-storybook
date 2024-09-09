@@ -1904,6 +1904,67 @@ video {
   background-color: rgb(179 199 249 / var(--tw-bg-opacity));
 }
 
+.msc-spinner-wrapper {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msc-spinner {
+  margin-bottom: 0.75rem;
+  height: 62px;
+  width: 62px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.msc-spinner {
+  animation: spin 1s linear infinite;
+}
+
+.msc-spinner-label {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.msc-spinner-label-dark {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.msc-spinner-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 40;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.msc-spinner-overlay-dark {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 40;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
+}
+
 .msc-link {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2867,6 +2928,11 @@ h6 {
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .bg-success-green {
