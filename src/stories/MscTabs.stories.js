@@ -11,7 +11,7 @@ export default {
   },
 };
 
-export const mscLabels = {
+export const mscTabs = {
   args: {
     labels: [
       "General Purpose & Heavy Duty",
