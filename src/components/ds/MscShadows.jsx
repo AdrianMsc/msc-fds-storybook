@@ -14,7 +14,7 @@ const MscShadows = ({ size }) => {
   return (
     <>
       <div
-        class={`size-[128px] rounded-md ${shadowSizes[size]} text-fuchsia-600 text-center content-center font-bold`}
+        className={`size-[128px] rounded-md ${shadowSizes[size]} text-fuchsia-600 text-center content-center font-bold`}
       >
         .{shadowSizes[size]}
       </div>

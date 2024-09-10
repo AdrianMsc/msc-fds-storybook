@@ -21,7 +21,7 @@ const MscDialog = ({
             <button className="msc-btn msc-btn-blue-solid">{buttonTwo}</button>
           ) : (
             <button className="msc-btn msc-btn-blue-solid">
-              <div class="msc-btn-dots-container">
+              <div className="msc-btn-dots-container">
                 {dots.map((index) => (
                   <div className={`msc-btn-dot${index}`} key={index}></div>
                 ))}

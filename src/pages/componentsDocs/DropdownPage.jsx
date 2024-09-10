@@ -1,11 +1,3 @@
-import {
-  DoubleDropdown,
-  Dropdown,
-  DropdownLabel,
-  DropdownLabelTop,
-  NumericDropdown,
-} from "../../components/ds/Dropdown";
-
 const DropdownPage = () => {
   return (
     <>
@@ -20,11 +12,11 @@ const DropdownPage = () => {
         multi-select options, adapting to the needs of various user scenarios.
       </p>
 
-      <Dropdown />
+      {/* <Dropdown />
       <DropdownLabel />
       <DropdownLabelTop />
       <DoubleDropdown />
-      <NumericDropdown />
+      <NumericDropdown /> */}
     </>
   );
 };

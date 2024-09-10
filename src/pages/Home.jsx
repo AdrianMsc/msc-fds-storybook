@@ -13,7 +13,7 @@ import MscColors from "../components/ds/MscColors";
 const Home = () => {
   return (
     <main className="max-w-[1000px] min-h-screen mx-auto flex items-center">
-      {/* <section className="flex flex-col p-10 w-[50%] h-auto gap-6">
+      <section className="flex flex-col p-10 w-[50%] h-auto gap-6">
         <h1 className="font-semibold text-5xl text-pretty">
           Welcome to MSC Design System
         </h1>
@@ -40,8 +40,7 @@ const Home = () => {
       </section>
       <section className=" w-[50%]">
         <Lottie animationData={HomeLottie} loop={true} />
-      </section> */}
-      <MscColors palette={"warning"} />
+      </section>
     </main>
   );
 };
