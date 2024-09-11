@@ -16,7 +16,7 @@ const config = {
   // Añadir la configuración para incluir el archivo preview-head.html
   previewHead: (head) => `
     ${head}
-    <link rel="stylesheet" href="../src/assets/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="https://adrianmsc.github.io/msc-tailwind-theme/assets/font-awesome/css/all.css" />
   `,
 };
 
