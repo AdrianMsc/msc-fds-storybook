@@ -44,6 +44,7 @@ module.exports = {
     require("./msc-components/msc-link"),
     require("./msc-components/msc-typography"),
     require("./msc-components/msc-pager"),
+    require("./msc-components/msc-pagination"),
     require("./msc-components/msc-filter"),
     require("./msc-components/msc-dialog"),
     require("./msc-components/msc-grey-button"),
