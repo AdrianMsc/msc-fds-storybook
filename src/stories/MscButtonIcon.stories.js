@@ -1,7 +1,7 @@
 import { MscButtonIcon } from "../components/ds/MscButtonIcon";
 
 export default {
-  title: "Action/ButtonIcon",
+  title: "Action/Button",
   component: MscButtonIcon,
   parameters: {
     layout: "centered",
@@ -30,5 +30,6 @@ export const mscButtonIcon = {
   args: {
     icon: "fa-solid fa-thumbs-up",
     size: "default",
+    disabled: false,
   },
 };

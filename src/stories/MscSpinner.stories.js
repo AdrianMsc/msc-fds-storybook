@@ -1,7 +1,7 @@
 import MscSpinner from "../components/ds/MscSpinner";
 
 export default {
-  title: "Action/Spinner",
+  title: "Indicator/Spinner",
   component: MscSpinner,
   parameters: {
     layout: "centered",
