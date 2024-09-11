@@ -3,13 +3,13 @@ import React from "react";
 const MscInputUnit = ({ label, errorMessage, disabled }) => {
   return (
     <>
-      <div class="msc-input-unit-wrapper">
+      <div className="msc-input-unit-wrapper">
         <input
           id="field"
           type="number"
           placeholder="1"
           disabled={disabled}
-          class={`msc-input-unit order-2 peer ${errorMessage && errorMessage.trim() ? " !border-error-red !text-error-red hover:!border-error-red focus:!border-error-red" : ""}`}
+          className={`msc-input-unit order-2 peer ${errorMessage && errorMessage.trim() ? " !border-error-red !text-error-red hover:!border-error-red focus:!border-error-red" : ""}`}
         />
         <label
           htmlFor="field"

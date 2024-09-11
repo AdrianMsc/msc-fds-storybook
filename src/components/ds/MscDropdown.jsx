@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../../styles/output.css";
 
-const MscDropdown = ({ placeholder, variant, reset }) => {
+const MscDropdown = ({ placeholder, variant }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOptionSelected, setIsOptionSelected] = useState(false);
   const [selectedValue, setSelectedValue] = useState(null);
@@ -23,19 +23,6 @@ const MscDropdown = ({ placeholder, variant, reset }) => {
       p2: "1 Day UPS (Early AM)",
     },
   ];
-
-  useEffect(() => {
-    if (reset) {
-      setIsOpen(false);
-      setIsOptionSelected(false);
-      setIsOptionSelected(false);
-      setSelectedValue(null);
-      setSelectedDoubleValue(null);
-      setSelectedNumericValue();
-    }
-
-    reset = false;
-  }, [reset]);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -187,19 +174,19 @@ const MscDropdown = ({ placeholder, variant, reset }) => {
             <div className="text-left">
               {selectedDoubleValue ? (
                 <>
-                  <p class="text-sm">
+                  <p className="text-sm">
                     {selectedDoubleValue.p1.slice(0, 5)}
                     <b>{selectedDoubleValue.p1.slice(5, 16)}</b>
                     {selectedDoubleValue.p1.slice(16, 24)}
                   </p>
-                  <p class="text-xs">{selectedDoubleValue.p2}</p>
+                  <p className="text-xs">{selectedDoubleValue.p2}</p>
                 </>
               ) : (
                 <>
-                  <p class="text-sm">
+                  <p className="text-sm">
                     Est. <b>Wed, Apr 03</b> from PA
                   </p>
-                  <p class="text-xs">Standard UPS Ground</p>
+                  <p className="text-xs">Standard UPS Ground</p>
                 </>
               )}
             </div>
@@ -211,15 +198,15 @@ const MscDropdown = ({ placeholder, variant, reset }) => {
             {doubleOptions.map((option, index) => (
               <div
                 key={index}
-                class="double-dropdown-option text-left"
+                className="double-dropdown-option text-left"
                 onClick={() => handleDoubleOptionClick(option)}
               >
-                <p class="text-sm">
+                <p className="text-sm">
                   {option.p1.slice(0, 5)}
                   <b>{option.p1.slice(5, 16)}</b>
                   {option.p1.slice(16, 24)}
                 </p>
-                <p class="text-xs">{option.p2}</p>
+                <p className="text-xs">{option.p2}</p>
               </div>
             ))}
           </div>

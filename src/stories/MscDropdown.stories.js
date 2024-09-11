@@ -20,7 +20,6 @@ export default {
       ],
     },
     placeholder: { control: "text" },
-    reset: { control: "boolean" },
   },
 };
 
@@ -28,6 +27,5 @@ export const mscDropdown = {
   args: {
     variant: "default",
     placeholder: "Select a Buyer",
-    reset: false,
   },
 };

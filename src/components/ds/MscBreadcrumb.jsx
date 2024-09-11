@@ -1,6 +1,6 @@
 const MscBreadcrumb = ({ steps = 5 }) => {
   return (
-    <ol class="msc-breadcrumb-container">
+    <ol className="msc-breadcrumb-container">
       {Array.from({ length: steps }).map((_, index) => (
         <li key={index}>
           <a className="msc-breadcrumb">breadcrumb</a>

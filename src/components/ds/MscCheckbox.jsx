@@ -2,14 +2,14 @@ import "../../styles/output.css";
 
 const MscCheckbox = ({ label }) => {
   return (
-    <div class="msc-checkbox-container">
+    <div className="msc-checkbox-container">
       <input
         type="checkbox"
         id="checkbox-id"
         value="checkbox-value"
-        class="msc-checkbox"
+        className="msc-checkbox"
       />
-      <label for="checkbox-id" class="msc-checkbox-label">
+      <label for="checkbox-id" className="msc-checkbox-label">
         {label}
       </label>
     </div>
