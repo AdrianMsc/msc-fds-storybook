@@ -4,7 +4,7 @@ module.exports = function ({ addComponents, theme }) {
       "@apply size-4 mr-2": {},
     },
     ".msc-toggle-icon": {
-      "@apply w-4 h-4 mr-3": {},
+      "@apply w-4 h-4 mr-3 text-gray-400": {},
     },
   };
   addComponents(icons);
