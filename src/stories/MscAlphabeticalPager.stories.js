@@ -6,9 +6,7 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-  argTypes: {
-    responsive: { control: "boolean" },
-  },
+  argTypes: {},
 };
 
 export const mscAlphabeticalPager = {
