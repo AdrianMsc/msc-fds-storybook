@@ -4,7 +4,7 @@ export default {
   title: "Navigation/AlphabeticalPager",
   component: MscAlphabeticalPager,
   parameters: {
-    layout: "centered",
+    layout: "fullscreen",
   },
   argTypes: {
     responsive: { control: "boolean" },
