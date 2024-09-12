@@ -12,7 +12,5 @@ export default {
 };
 
 export const mscAlphabeticalPager = {
-  args: {
-    responsive: false,
-  },
+  args: {},
 };
