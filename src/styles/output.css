@@ -3026,6 +3026,11 @@ h6 {
   grid-column: span 6 / span 6;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -3039,11 +3044,6 @@ h6 {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .mb-2 {
@@ -3084,14 +3084,6 @@ h6 {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .mt-\[200px\] {
@@ -3239,10 +3231,6 @@ h6 {
   max-width: 1000px;
 }
 
-.\!max-w-\[400px\] {
-  max-width: 400px !important;
-}
-
 .shrink {
   flex-shrink: 1;
 }
@@ -3335,14 +3323,6 @@ h6 {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
-.place-self-center {
-  place-self: center;
-}
-
-.self-center {
-  align-self: center;
 }
 
 .overflow-auto {
