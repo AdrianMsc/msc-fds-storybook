@@ -27,7 +27,7 @@ const MscCartActionBar = () => {
 
   return (
     <div className="msc-cart-action-bar">
-      <div className={`msc-buttons-container`}>
+      <div className="msc-buttons-container">
         {buttons.map((button, index) => (
           <React.Fragment key={index}>
             <Button icon={button.icon} text={button.text} />
@@ -51,7 +51,9 @@ const MscCartActionBar = () => {
 
         <div
           id="optionsList"
-          className={`msc-buttons-container-responsive ${optionsVisible ? "" : "hidden"} lg:hidden`}
+          className={`msc-buttons-container-responsive ${
+            optionsVisible ? "" : "hidden"
+          } lg:hidden`}
         >
           {buttons.map((button, index) => (
             <Button key={index} icon={button.icon} text={button.text} />
