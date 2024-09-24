@@ -11,7 +11,7 @@ export const MscButton = ({
   const variantClasses = {
     solid: "msc-btn msc-btn-blue-solid",
     outline: "msc-btn msc-btn-blue-outline",
-    transparent: "msc-btn msc-btn-blue-transparent",
+    transparent: "msc-btn msc-btn-transparent",
   };
 
   const variantSizes = {

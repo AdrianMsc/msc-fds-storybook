@@ -710,15 +710,24 @@ video {
 
 .msc-btn {
   height: 2.5rem;
+  min-width: 6rem;
   cursor: pointer;
   border-radius: 9999px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .msc-btn {
+    min-width: 8rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 .msc-btn-sm {
@@ -793,6 +802,7 @@ video {
 }
 
 .msc-btn-transparent {
+  min-width: 8rem;
   background-color: transparent;
   color: #1C58EE;
 }
@@ -825,10 +835,12 @@ video {
 .msc-btn-icon {
   margin-left: 0.5rem;
   display: flex;
+  min-width: 8rem;
   align-items: center;
 }
 
 .msc-btn-dots-container {
+  margin: auto;
   display: flex;
   height: auto;
   width: 2.5rem;
@@ -1001,7 +1013,7 @@ video {
   color: rgb(219 219 219 / var(--tw-text-opacity));
 }
 
-.msc-icon-button-lg  {
+.msc-icon-button-lg i {
   font-size: 32px;
 }
 
