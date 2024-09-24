@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../styles/output.css";
 
-const MscAlphabeticalPager = ({ responsive }) => {
+const MscAlphabeticalPager = () => {
   const alphabet = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ", "0-9"];
   const pagerContainerRef = useRef(null);
   const pagerListRef = useRef(null);
@@ -53,14 +53,16 @@ const MscAlphabeticalPager = ({ responsive }) => {
   return (
     <div
       id="pagerContainer"
-      className={`msc-pager-container msc-pager-container-after ${responsive ? "!max-w-[400px]" : ""}`}
+      className="msc-pager-container msc-pager-container-after mt-[200px] mx-5"
       ref={pagerContainerRef}
     >
       <ul id="pagerList" className="msc-pager-list" ref={pagerListRef}>
         {alphabet.map((letter, index) => (
           <li key={index}>
             <button
-              className={`msc-pager-item${letter === "0-9" ? " msc-pager-last-item" : ""}`}
+              className={`msc-pager-item${
+                letter === "0-9" ? " msc-pager-last-item" : ""
+              }`}
             >
               {letter}
             </button>

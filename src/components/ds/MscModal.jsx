@@ -10,7 +10,7 @@ const MscModal = ({ title, body, buttonOne, buttonTwo }) => {
 
   return (
     <>
-      <button onClick={toggleModal} class="msc-btn msc-btn-blue-solid">
+      <button onClick={toggleModal} className="msc-btn msc-btn-blue-solid">
         Trigger Modal
       </button>
 

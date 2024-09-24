@@ -4,15 +4,11 @@ export default {
   title: "Navigation/AlphabeticalPager",
   component: MscAlphabeticalPager,
   parameters: {
-    layout: "centered",
+    layout: "fullscreen",
   },
-  argTypes: {
-    responsive: { control: "boolean" },
-  },
+  argTypes: {},
 };
 
 export const mscAlphabeticalPager = {
-  args: {
-    responsive: false,
-  },
+  args: {},
 };

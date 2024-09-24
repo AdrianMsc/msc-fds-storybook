@@ -11,7 +11,7 @@ const MscDivider = ({ variant = "horizontal_gray" }) => {
   const className = `${variantClasses[variant]}`;
 
   return (
-    <div class="flex size-[400px] items-center justify-center py-3 px-4">
+    <div className="flex size-[400px] items-center justify-center py-3 px-4">
       <div className={className}></div>
     </div>
   );
