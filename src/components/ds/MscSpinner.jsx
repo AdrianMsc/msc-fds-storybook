@@ -2,6 +2,8 @@ import React from "react";
 
 const MscSpinner = ({ loadText = "Loading", variant = "light" }) => {
   const variantColors = { light: "#212121", dark: "#717171" };
+  const variantColorPath = { light: "#212121", dark: "#ffffff" };
+  const circleOpacity = { light: 0.38, dark: 1 };
 
   return (
     <>
@@ -21,7 +23,7 @@ const MscSpinner = ({ loadText = "Loading", variant = "light" }) => {
           >
             <circle cx="31" cy="31" r="28" stroke="white" strokeWidth="6" />
             <circle
-              opacity="0.38"
+              opacity={circleOpacity[variant]}
               cx="31"
               cy="31"
               r="28"
@@ -31,7 +33,7 @@ const MscSpinner = ({ loadText = "Loading", variant = "light" }) => {
             <path
               opacity="0.8"
               d="M3 31C3 15.536 15.536 3 31 3"
-              stroke="#212121"
+              stroke={variantColorPath[variant]}
               strokeWidth="6"
               strokeLinecap="round"
             />
