@@ -2675,6 +2675,10 @@ h6 {
   left: 33.333333%;
 }
 
+.left-2\/4 {
+  left: 50%;
+}
+
 .left-3 {
   left: 0.75rem;
 }
@@ -2687,8 +2691,16 @@ h6 {
   left: 130px;
 }
 
+.left-\[212px\] {
+  left: 212px;
+}
+
 .left-\[4px\] {
   left: 4px;
+}
+
+.left-\[74px\] {
+  left: 74px;
 }
 
 .right-0 {
@@ -2881,6 +2893,10 @@ h6 {
 
 .\!w-screen {
   width: 100vw !important;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-11\/12 {

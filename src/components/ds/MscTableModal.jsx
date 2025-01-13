@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import cross from "../../assets/times.svg";
 import info from "../../assets/info-question.svg";
 
@@ -8,6 +8,27 @@ const MscTableModal = ({ productTitle, brandTitle, total }) => {
   const toggleModal = () => {
     setTriggerModal((prev) => (prev === "hidden" ? "" : "hidden"));
   };
+
+  const [selectedSize, setSelectedSize] = useState("Fractional");
+
+  useEffect(() => {
+    const updateSliderPosition = () => {
+      const slider = document.querySelector("#tripleToggleDot");
+      if (slider) {
+        const positions = [
+          "left-[4px]",
+          "left-[74px]",
+          "left-2/4",
+          "left-[212px]",
+        ];
+        const radioIndex = ["Fractional", "Letter", "Wire", "Metric"].indexOf(
+          selectedSize
+        );
+        slider.className = `absolute w-1/4 h-3/4 bg-white shadow-md rounded-full transition-all duration-150 ease-in-out  ${positions[radioIndex]}`;
+      }
+    };
+    updateSliderPosition();
+  }, [selectedSize]);
 
   return (
     <>
@@ -50,7 +71,8 @@ const MscTableModal = ({ productTitle, brandTitle, total }) => {
                         name="tableModal"
                         value="fractional"
                         class="peer sr-only"
-                        checked
+                        checked={selectedSize === "Fractional"}
+                        onChange={() => setSelectedSize("Fractional")}
                       />
                       <span class="w-full h-full rounded-full text-center content-center font-bold text-xs peer-checked:text-black transition ease-in delay-150 z-10">
                         Fractional
@@ -66,6 +88,8 @@ const MscTableModal = ({ productTitle, brandTitle, total }) => {
                         name="tableModal"
                         value="letter"
                         class="peer sr-only"
+                        checked={selectedSize === "Letter"}
+                        onChange={() => setSelectedSize("Letter")}
                       />
                       <span class="w-full h-full rounded-full text-center content-center font-bold text-xs peer-checked:text-black transition ease-in delay-150 z-10">
                         Letter
@@ -81,6 +105,8 @@ const MscTableModal = ({ productTitle, brandTitle, total }) => {
                         name="tableModal"
                         value="wire"
                         class="peer sr-only"
+                        checked={selectedSize === "Wire"}
+                        onChange={() => setSelectedSize("Wire")}
                       />
                       <span class="w-full h-full rounded-full text-center content-center font-bold text-xs peer-checked:text-black transition ease-in delay-150 z-10">
                         Wire
@@ -96,6 +122,8 @@ const MscTableModal = ({ productTitle, brandTitle, total }) => {
                         name="tableModal"
                         value="metric"
                         class="peer sr-only"
+                        checked={selectedSize === "Metric"}
+                        onChange={() => setSelectedSize("Metric")}
                       />
                       <span class="w-full h-full rounded-full text-center content-center font-bold text-xs peer-checked:text-black transition ease-in delay-150 z-10">
                         Metric
