@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import cross from "../../assets/times.svg";
 
-const MscModal = ({ description }) => {
+const MscMailListModal = ({ description }) => {
   const [triggerModal, setTriggerModal] = useState("hidden");
 
   const toggleModal = () => {
@@ -67,4 +67,4 @@ const MscModal = ({ description }) => {
   );
 };
 
-export default MscModal;
+export default MscMailListModal;
