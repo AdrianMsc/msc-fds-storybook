@@ -1,8 +1,8 @@
-import MscDivider from "../components/ds/MscDivider";
+import MscDividers from "../components/ds/MscDividers";
 
 export default {
-  title: "Form/Divider",
-  component: MscDivider,
+  title: "Form/Dividers",
+  component: MscDividers,
   parameters: {
     layout: "centered",
   },
@@ -19,7 +19,7 @@ export default {
   },
 };
 
-export const mscDivider = {
+export const mscDividers = {
   args: {
     variant: "horizontal_gray",
   },

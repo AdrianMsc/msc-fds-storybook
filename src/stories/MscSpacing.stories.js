@@ -11,7 +11,7 @@ export default {
   },
 };
 
-export const mscTypography = {
+export const mscSpacing = {
   args: {
     size: 4,
   },

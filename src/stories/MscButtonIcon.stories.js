@@ -1,7 +1,7 @@
 import { MscButtonIcon } from "../components/ds/MscButtonIcon";
 
 export default {
-  title: "Action/Button",
+  title: "Action/Buttons",
   component: MscButtonIcon,
   parameters: {
     layout: "centered",

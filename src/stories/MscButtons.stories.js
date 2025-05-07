@@ -1,8 +1,8 @@
-import { MscButton } from "../components/ds/MscButton";
+import { MscButtons } from "../components/ds/MscButtons";
 
 export default {
-  title: "Action/Button",
-  component: MscButton,
+  title: "Action/Buttons",
+  component: MscButtons,
   parameters: {
     layout: "centered",
   },
@@ -29,7 +29,7 @@ export default {
   },
 };
 
-export const mscButton = {
+export const mscButtons = {
   args: {
     label: "Blue Solid",
     variant: "solid",

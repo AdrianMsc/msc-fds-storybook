@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/output.css";
 
-export const MscButton = ({
+export const MscButtons = ({
   label = "Button",
   variant = "solid",
   size = "default",
@@ -45,4 +45,4 @@ export const MscButton = ({
   );
 };
 
-export default MscButton;
+export default MscButtons;

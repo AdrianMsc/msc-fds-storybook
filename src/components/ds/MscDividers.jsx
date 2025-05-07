@@ -1,6 +1,6 @@
 import "../../styles/output.css";
 
-const MscDivider = ({ variant = "horizontal_gray" }) => {
+const MscDividers = ({ variant = "horizontal_gray" }) => {
   const variantClasses = {
     horizontal_gray: "msc-h-divider-gray",
     horizontal_blue: "msc-h-divider-blue",
@@ -17,4 +17,4 @@ const MscDivider = ({ variant = "horizontal_gray" }) => {
   );
 };
 
-export default MscDivider;
+export default MscDividers;

@@ -24,7 +24,7 @@ export default {
 };
 
 // Definición de variaciones del botón
-export const mscButton = {
+export const mscLink = {
   args: {
     label: "Link",
     variant: "default",
